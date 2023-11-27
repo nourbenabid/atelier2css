@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page d'acceuil</title>
+    <link rel ="stylesheet" type="text/css" href="étude de cas.css"> </head>
+    <a href="acceuil (1).html">Retour à la page d'acceuil </a>  
+    <a href="#Projets.html">Projets </a>  
+    <a href="#Services.html">Services </a>  
+    <a href="#Inscription.html">Inscription </a>  
+    <br> <img  src=https://images.squarespace-cdn.com/content/v1/5fce63270356d927d7eecdbd/033e9988-2ac8-4cb9-8b9f-5bf05fb22dcb/gff.jpg height="400" width="600">  </br>
+    <hr>
+    
+</head>
+<body>
+    <h1>Inscription</h1>
+  <form id="inscriptionForm" >
+    <table>
+      <tr>
+        <td><label for="nom">Nom:</label></td>
+        <td><input type="text" id="nom" name="nom" required minlength="3" placeholder="Entrez votre nom"></td>
+      </tr>
+      <tr>
+        <td><label for="prenom">Prénom:</label></td>
+        <td><input type="text" id="prenom" name="prenom" required minlength="3" placeholder="Entrez votre prénom"></td>
+      </tr>
+      <tr>
+        <td><label for="telephone">Téléphone:</label></td>
+        <td><input type="tel" id="telephone" name="telephone" required pattern="[0-9]{10}" placeholder="Entrez votre numéro de téléphone"></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" id="email" name="email" required placeholder="Entrez votre adresse email"></td>
+      </tr>
+      <tr>
+        <td><label for="motdepasse">Mot de passe:</label></td>
+        <td><input type="password" id="motdepasse" name="motdepasse" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" placeholder="Entrez votre mot de passe"></td>
+      </tr>
+    </table>
+    <input type="submit" value="S'inscrire">
+  </form>
+</body>
+
+    <footer>
+        <p><strong>Contactez-nous </strong>: <a  href="mailto:nour.benabid@esprit.tn">nour.benabid@sprit.tn</a></p>
+       
+    </footer>
+</html>
+    
